@@ -12,5 +12,10 @@ This add-on provides a helper called ‘trophieslist’ with options:
 - link format (if specified will wrap output with link, %trophy_id% will be replaced with the ID of current trophy) [optional]
 - format (output format, default is %icon%. Supports these variables: %icon%, %points%, %title%, %description%.) [optional]
 
+### Example: 
+{xen:helper trophieslist, $user.user_id, 0, 4, '', '/forum/styles/default/xenforo/trophies/', '/forum/help/trophies#trophy-%trophy_id%’}
+
+For icons used the same idea as in this resource - https://xenforo.com/community/resources/customize-individual-trophy-icons.946/ .
+
 ### Screenshot
 ![Usage example](screenshot.png)
